@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Climate Change Impact Analyzer
 
 This project analyzes climate change data and implements algorithms, detects situations, creates predications and more to visualize the results.
@@ -116,3 +117,7 @@ Matplotlib plots for all outputs
 
 
 
+=======
+# climate_analyzer_project
+Climate Change Analyzer Project
+>>>>>>> 50f9b3c400e93818e38b3b220da2678758173355
