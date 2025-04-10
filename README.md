@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # Climate Change Impact Analyzer
 
-This project analyzes climate change data and implements algorithms, detects situations, creates predications and more to visualize the results.
+This project analyzes climate change data and implements algorithms, detects situations, creates predictions and more to visualize the results.
 
 
 ## Setup:
@@ -14,7 +14,7 @@ This project analyzes climate change data and implements algorithms, detects sit
 2. Create virtual environment:
     python3 -m venv venv
    
- 3. activate virtual enviornment 
+ 3. Activate virtual enviornment 
  source venv/bin/activate
 
 4. Install Dependencies 
@@ -26,8 +26,9 @@ Run main:
 Option 1:
 
 python3 -m src.main  #or python 
-    You will See Available Data Files with their Names of the Area and What you want to predicict
-    Enter the number of the correlated Area+Option
+
+   You will see available data files with the names of the area and what you want to predict.
+    Enter the number of the correlated Area+Option.
 
     Prediction with printed results and plot
     Clustering (works with both 1D and 2D data)
@@ -104,7 +105,7 @@ coverage report
 ## Features:
 
     Automatically detects the CSV Files
-    Linear regresion for temperature prediction
+    Linear regression for temperature prediction
     Clustering on climate features
     Anomaly detection + moving average
     Static and animated visuailzations
@@ -114,7 +115,8 @@ coverage report
     Website via Flask to do it on WEB
     Matplotlib plots for all outputs
 
-
+## Data
+   Data is sourced from: https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/global/time-series/globe/tavg/land_ocean/12/1/1850-2025 
 
 
 =======
