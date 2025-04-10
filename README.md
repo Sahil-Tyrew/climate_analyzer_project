@@ -67,52 +67,52 @@ coverage report
 
 ## Structure 
 
-CLIMATE_CHANGE_ANALYZER/
-│
-├── data/
-|   ...(all data files)
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_processor.py 
-│   ├── algorithms.py      
-│   ├── vizualizer.py
-│   ├── cli.py
-│   ├── main.py            
-│
-├── tests/
-|   ├── __init__.py
-│   ├── test_data_processor.py
-│   ├── test_algorithms.py
-│   ├── test_visualizer.py
-|   ├── test_pipeline.py
-│   └── ...                          # Other test files
-│
-├── website/
-│   ├── app.py                       # Flask web application
-│   ├── templates/
-│   │   └── index.html               # Frontend HTML
-│   └── uploads/
-│       └── ...                      # Any uploaded files or user data
-|
-|
-├── requirements.txt                 
-├── .coverage                        # Coverage report file
-└── README.md                        
+    CLIMATE_CHANGE_ANALYZER/
+    │
+    ├── data/
+    |   ...(all data files)
+    │
+    ├── src/
+    │   ├── __init__.py
+    │   ├── data_processor.py 
+    │   ├── algorithms.py      
+    │   ├── vizualizer.py
+    │   ├── cli.py
+    │   ├── main.py            
+    │
+    ├── tests/
+    |   ├── __init__.py
+    │   ├── test_data_processor.py
+    │   ├── test_algorithms.py
+    │   ├── test_visualizer.py
+    |   ├── test_pipeline.py
+    │   └── ...                          # Other test files
+    │
+    ├── website/
+    │   ├── app.py                       # Flask web application
+    │   ├── templates/
+    │   │   └── index.html               # Frontend HTML
+    │   └── uploads/
+    │       └── ...                      # Any uploaded files or user data
+    |
+    |
+    ├── requirements.txt                 
+    ├── .coverage                        # Coverage report file
+    └── README.md                        
 
 
 ## Features:
 
-Automatically detects the CSV Files
-Linear regresion for temperature prediction
-Clustering on climate features
-Anomaly detection + moving average
-Static and animated visuailzations
-CLI to run analysis
-High coverage testing using unittest
-Integration test of pipeline
-Website via Flask to do it on WEB
-Matplotlib plots for all outputs
+    Automatically detects the CSV Files
+    Linear regresion for temperature prediction
+    Clustering on climate features
+    Anomaly detection + moving average
+    Static and animated visuailzations
+    CLI to run analysis
+    High coverage testing using unittest
+    Integration test of pipeline
+    Website via Flask to do it on WEB
+    Matplotlib plots for all outputs
 
 
 
