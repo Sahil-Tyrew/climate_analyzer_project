@@ -1,0 +1,28 @@
+# Bytecode and cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# VSCode or IDE folders
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Python logs
+*.log
+
+# Test coverage files
+.coverage
+
+# Plot output from visualizer
+/web/static/plot.png
+
+# Flask uploads (optional)
+web/uploads/
